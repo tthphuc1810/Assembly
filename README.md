@@ -1,42 +1,42 @@
 <p align="center">
-  <a href="https://hcmus.edu.vn//" title="Trường Đại học Khoa Học Tự Nhiên " style="border: none;">
-    <img src="https://fetel.hcmus.edu.vn/wp-content/uploads/2022/09/logo-fetel.png" alt="rường Đại học Khoa Học Tự Nhiên | University of Science">
+  <a href="https://hcmus.edu.vn//" title="University of Science" style="border: none;">
+    <img src="https://fetel.hcmus.edu.vn/wp-content/uploads/2022/09/logo-fetel.png" alt="University of Science">
   </a>
 </p>
 
-# Lập trình ứng dụng Assembly .
+# Assembly Application Programming
 
-## Giới thiệu
+## Introduction
 
-* Đây là bài tập được sử dụng làm đồ án cuối kì cho môn kiến trúc máy tính.
-* Bài tập được xây dựng trên các kiến trúc máy tính sử dụng ngôn ngữ Assembly.
-* Thực hiện chương trình biến đổi số thập phân sang số dấu chấm động IEEE 754 32-bit bằng ngôn ngữ assembly, và kiểm tra phép biến đổi bằng các cặp số sau:
-• 4.25 → 0x40880000
-• 7.625 → 0x40f40000
-• 26.5 → 0x41d40000
-• -11.5625 → 0xc1390000
+* This project is used as a final assignment for the Computer Architecture course.
+* The project is built on computer architectures using Assembly language.
+* The program converts decimal numbers to IEEE 754 32-bit floating-point representation in Assembly language and verifies the conversion using the following pairs:
+  * 4.25 → 0x40880000
+  * 7.625 → 0x40f40000
+  * 26.5 → 0x41d40000
+  * -11.5625 → 0xc1390000
 
-### Giảng viên hướng dẫn
+### Supervisor
 
-* ThS. Đặng Tấn Phát - Khoa Điện Tử - Viễn Thông , Trường Đại Học Khoa Học Tự Nhiên - ĐHQGHCM
+* MsC. Dang Tan Phat - Faculty of Electronics and Telecommunications, University of Science - VNU-HCM
 
-### Sinh viên thực hiện
+### Students Involved
 
-|**STT**|**MSSV**|  **Họ và tên**  |       **Email**      |
-|-------|--------|-----------------|----------------------|
-|   1   |21207077|Tran Thien Phuc  |21207077@hcmus.edu.vn |
+|**No**|**Student ID**|  **Full Name**  |       **Email**      |
+|------|---------------|------------------|----------------------|
+|  1   |21207077       |Tran Thien Phuc   |21207077@hcmus.edu.vn |
 
-## Chạy thử project
+## Project Execution
 
-### Yêu cầu để thực thi project
+### Requirements to Execute the Project
 
 * Quartus Intel Prime
 
-### Bước 1: Lập trình ứng dụng assembly  
+### Step 1: Program the Assembly Application  
 
-* Thiết lập dữ liệu đầu vào 
-* Code các chứng năng thanh ghi
+* Set up the input data.
+* Code the necessary register functionalities.
 
-### Bước 2: Thực thi chương trình
+### Step 2: Execute the Program
 
-* Chạy trên Quartus Intel hoặc các phần mềm mô phỏng thanh ghi khác 
+* Run on Quartus Intel or other register simulation software.
